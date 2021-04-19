@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style type="text/css">
+			.bei {
+				height: 300px;
+				width: 300px;
+				background-color: #B2B3DE;
+				margin-top: 50px;
+			}
+			body {
+			
+				margin: 0;
+				padding-top: 1px;
+				min-width: 1200px;
+				width:expression(document.body.clientWidth <= 1200 ? "1200px": "auto");
+			}
+			#zhe {
+				display: none;
+				position: fixed;
+				left: 0;
+				top: 0;
+				background-color: rgba(0,0,0,0.3);
+			}
+			#nei {
+				width: 600px;
+				height: 400px;
+				margin: 0 auto;
+				position: relative;
+				top: 50%;
+				margin-top: -200px;
+				background-color: #FFFFFF;
+			}
+		</style>
+	</head>
+	<body>
+		<!-- 该技术实现：设置一个撑满屏幕半透明父元素背景分情况显示，在该元素里设置需要展示的内容 -->
+		<div class="bei"></div>
+		<div class="bei"></div>
+		<div class="bei"></div>
+		<div class="bei"></div>
+		<div class="bei"></div>
+		<div class="bei"></div>
+		<div class="bei"></div>
+		<div class="bei"></div>
+		<div class="bei"></div>
+		<div class="bei"></div>
+		<button type="button" id="dakai">dakai</button>
+		<div id="zhe"><div id="nei"><button type="button" id="guan">关闭</button></div></div>
+		<script type="text/javascript">
+			var hw = document.getElementById('zhe');
+			var guan = document.getElementById('guan');
+			var dakai = document.getElementById('dakai');
+			window.onload = function () {
+				hw.style.height = window.innerHeight + 'px';
+				hw.style.width = window.innerWidth + 'px';
+			}
+			window.onresize = function () {
+				hw.style.height = window.innerHeight + 'px';
+				hw.style.width = window.innerWidth + 'px';
+			}
+			guan.addEventListener('click',function(){
+				hw.style.display = 'none';
+				console.log('关闭');
+			})
+			dakai.addEventListener('click',function(){
+				hw.style.display = 'block';
+				console.log('打开');
+			})
+		</script>
+	</body>
+</html>

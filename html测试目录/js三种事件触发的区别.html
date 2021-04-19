@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<!-- dom中直接绑定事件，缺点js和html混合文档结构清，当一个事件绑定多个函数只会执行第一个-->
+		<button type="button" onclick="clck()" onclick="mousemove()">dom事件</button>
+		<!-- js中绑定事件 支持度高，当一个事件绑定多个匿名函数只会执行最后一个-->
+		<button type="button" id="button">js事件</button>
+		<!-- js中绑定事件 支持度高，当一个事件绑定多个函数将会依次执行-->
+		<button type="button" id="buttons">事件函数</button>
+		<script type="text/javascript">
+			function clck(){
+				console.log("dom————点击1");
+			}
+			function mousemove(){
+				console.log("dom————点击2");
+			}
+			var button = document.getElementById("button");
+			button.onclick = function() {
+				console.log("js————点击1");
+			}
+			button.onclick = function() {
+				console.log("js————点击2");
+			}
+			var buttons = document.getElementById("buttons");
+			buttons.addEventListener("click",function() {console.log('事件函数————点击1');})
+			buttons.addEventListener("click",function() {console.log('事件函数————点击2');})
+		</script>
+	</body>
+</html>

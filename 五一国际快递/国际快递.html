@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>国际快递</title>
+		<link rel="icon" type="image/x-icon" href="./img/首页/log.png" />
+		<link rel="stylesheet" href="./css/国际快递.css">
+
+
+	</head>
+	<body>
+		<div class="zheng-bei-1">
+			<div class="jv">
+				<div class="lanbei">
+					<div class="baioti">
+						<img src="./img/首页/51GUOJI.png" alt="51国际快递">
+						<div>
+							<h1>五一国际快递</h1>
+							<p>跨境电商供应链一站式服务平台</p>
+						</div>
+					</div>
+					<div class="guding">
+						<div class="sou">
+							<input type="text" name="" id="text" value="" placeholder="关键词" />
+							<button id="ti"><img src="img/首页/搜索.png" alt="搜索"></button>
+						</div>
+					</div>
+				</div>
+				<div class="jiaocha"></div>
+				<div class="daohang">
+					<div id="app" @mouseover="fy" @mouseout="fn">
+						<span>快速导航</span>
+						<img src="./img/首页/导航栏.png">
+						<ul v-show="dao">
+							<li><a href="index.html">首页</a></li>
+							<li><a href="咨询详情.html" target="_blank">咨询详情</a></li>
+							<li><a href="联系我们.html" target="_blank">联系我们</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="zheng-bei-2">
+			<div class="jv">
+				<h1>国际快递</h1>
+			</div>
+		</div>
+		<div id="zheng-bei-3">
+			<div class="jv">
+				<h2>全球超过<span>1023842</span>位用户使用五一国际快递服务</h2>
+			</div>
+		</div>
+		<div id="zheng-bei-4">
+			<div class="jv">
+				<div class="zhongbiao">
+					<h2>国际<span>快递</span>流程</h2>
+				</div>
+				<div id="baio">
+					<div>
+						<h3>此区域为您需要做的事项</h3>
+					</div>
+					<div style="background-color: #e59b4c;">
+						<h3>此区域为我们需要做的事项</h3>
+					</div>
+				</div>
+				<div id="liucheng">
+					<div class="lan">
+						<h3>价格咨询</h3><img src="./img/国际快递/价格(1).png" alt="">
+					</div>
+					<div class="daunxian"></div>
+					<div class="lan">
+						<h3>信息确认</h3><img src="./img/国际快递/确认.png" alt="">
+					</div>
+					<div class="daunxian"></div>
+					<div class="lan huang">
+						<h3>入仓打包</h3><img src="./img/国际快递/打包.png" alt="">
+					</div>
+					<div class="daunxian"></div>
+					<div class="lan huang">
+						<h3>计重出库</h3><img src="./img/国际快递/出库.png" alt="">
+					</div>
+					<div class="daunxian"></div>
+					<div class="lan huang">
+						<h3>运输派送</h3><img src="./img/国际快递/派送.png" alt="">
+					</div>
+					<div class="daunxian"></div>
+					<div class="lan">
+						<h3>签收分享</h3><img src="./img/国际快递/签收.png" alt="">
+					</div>
+				</div>
+				<div id="qinkaungweizhi">
+					<div id="qinkaung">
+						<h2>自送</h2>
+						<ol>
+							<li>一、客户可自行送仓。 </li>
+							<li> 二、把货物寄送至我司仓库。</li>
+						</ol>
+						<div><a href="#">查看我司电子地图</a></div>
+					</div>
+					<div id="qinkaung">
+						<h2>在线确认货物入仓</h2>
+						<ol>
+							<li>一、通过在线客服确认货物入仓信息。 </li>
+							<li>二、电话、微信或QQ咨询客服入仓信息。</li>
+						</ol>
+						<div><a href="#">查看我司电子地图</a></div>
+					</div>
+					<div id="qinkaung">
+						<h2>电话确认货物信息</h2>
+						<ol>
+							<li>一、通过在线客服、QQ和微信确认货物信息。 </li>
+							<li> 二、通过手机13527077934确认货物信息。</li>
+						</ol>
+						<div><a href="#">拨打电话联系</a></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="zheng-bei-5">
+			<div class="jv">
+				<div class="zhongbiao">
+					<h2>国际快递您<span>需要</span>了解的问题</h2>
+				</div>
+				<ul>
+					<li>
+						<ul @mousemove="wen_y_1" @mouseout="wen_n_1">
+							<li class="wen">问：国际快递您需要了解的问题</li>
+							<li class="da" v-show="da_1"><span>答：</span>德国快递包裹市场业务量增加了3.7%…澳大利亚邮政拓展国内取件和退件网…俄罗斯航空公司货运收入增长… 汉堡冷藏集装箱透成都</li>
+						</ul>
+					</li>
+					<li>
+						<ul @mousemove="wen_y_2" @mouseout="wen_n_2">
+							<li class="wen">问：国际快递您需要了解的问题</li>
+							<li class="da" v-show="da_2"><span>答：</span>德国快递包裹市场业务量增加了3.7%…澳大利亚邮政拓展国内取件和退件网…俄罗斯航空公司货运收入增长… 汉堡冷藏集装箱透成都</li>
+						</ul>
+					</li>
+					<li>
+						<ul @mousemove="wen_y_3" @mouseout="wen_n_3">
+							<li class="wen">问：国际快递您需要了解的问题</li>
+							<li class="da" v-show="da_3"><span>答：</span>德国快递包裹市场业务量增加了3.7%…澳大利亚邮政拓展国内取件和退件网…俄罗斯航空公司货运收入增长… 汉堡冷藏集装箱透成都</li>
+						</ul>
+					</li>
+					<li>
+						<ul @mousemove="wen_y_4" @mouseout="wen_n_4">
+							<li class="wen">问：国际快递您需要了解的问题</li>
+							<li class="da" v-show="da_4"><span>答：</span>德国快递包裹市场业务量增加了3.7%…澳大利亚邮政拓展国内取件和退件网…俄罗斯航空公司货运收入增长… 汉堡冷藏集装箱透成都</li>
+						</ul>
+					</li>
+
+				</ul>
+			</div>
+		</div>
+		<div id="zheng-bei-6">
+			<div class="jv">
+				<div class="zhongbiao">
+					<h2>五一国际安全<span>保障</span>与特色服务</h2>
+				</div>
+				<div id="top">
+					<div id="baozhang">
+						<div style="background-color: #2e2b69; color: #FFFFFF;"><img src="./img/国际快递/赔付.png" alt="">
+							<h3 style="color: #FFFFFF;">按险赔付</h3>
+							<p> 若发生丢件，我们将快速为客户向保险追索赔偿。</p>
+						</div>
+						<div><img src="./img/国际快递/支付.png" alt="">
+							<h3>多种支付方式</h3>
+							<p> 支持 微信支付、支付宝 、网银转账等多种方式，支付更便捷和安全。</p>
+						</div>
+						<div><img src="./img/国际快递/清关.png" alt="">
+							<h3>专业人士协助清关</h3>
+							<p> 我们可协助客户清关，确保货物能派送到客户手上。</p>
+						</div>
+						<div><img src="./img/国际快递/综合.png" alt="">
+							<h3>国际运输综合险</h3>
+							<p> 保险保障客户的货物运输风险。</p>
+						</div>
+						<div><img src="./img/国际快递/担保.png" alt="">
+							<h3>第三方平台担保支付</h3>
+							<p> 五一国际速递是微信、支付宝合作商家，可靠的第三方平台确保您的支付安全性</p>
+						</div>
+						<div><img src="./img/国际快递/直送到家.png" alt="">
+							<h3>国外派送到门</h3>
+							<p> 除偏远地区外，包裹均可派送到门。</p>
+						</div>
+					</div>
+					<div id="cetu"><img src="./img/国际快递/cetu.png" alt=""></div>
+				</div>
+			</div>
+		</div>
+		<div id="zheng-bei-8">
+			<div class="jv">
+				<div class="zhongbiao">
+					<h2>五一增值<span>服务</span>全面保障</h2>
+				</div>
+				<div id="ul">
+					<ul id="ul_ul">
+						<li><img src="./img/国际快递/打包加固.png">
+							<h2>费打包加固</h2>
+							<p> 在国内运输当中， 部份物品容易因 挤压而变形或封口不严实，这样极易造成风险，引发国际运输事故，五一国际速递提供</p>
+						</li>
+						<li><img src="./img/国际快递/货物入仓.png">
+							<h2>货物入仓</h2>
+							<p> 仓库设有专人接收货物，保证货物安全入仓。</p>
+						</li>
+						<li><img src="./img/国际快递/包装材料.png">
+							<h2>免费提供包装材料</h2>
+							<p> 五一国际速递为客户提供整套免费私人物品包装材料，能满足客户各类物品的包装需求。</p>
+						</li>
+						<li><img src="./img/国际快递/压缩体积.png">
+							<h2>免费压缩体积</h2>
+							<p> 针对客户包装体积偏大的情况， 五一国际速递 免费 提供压缩体积服务，以最合适的方式帮助客户减少体积，节省多余</p>
+						</li>
+						<li><img src="./img/国际快递/跟换包装.png">
+							<h2>免费更换包装</h2>
+							<p> 针对外包装 严重 破损的纸箱，我们提供免费更换外包装服务。为了 保障您的货物安全，我们 不收取任何材料费用。</p>
+						</li>
+						<li><img src="./img/国际快递/包装服务.png">
+							<h2>托盘包装服务</h2>
+							<p>五一国际速递提供托盘包装服务，根据货物尺寸进行托盘打包，内外全面保护，确保货物在长途运输的防护安全。</p>
+						</li>
+					</ul>
+					<div id="buttons">
+						<button id="left">&lt;</button>
+						<button id="right">&gt;</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="zheng-bei-7">
+			<div class="jv">
+				<div class="zhongbiao">
+					<h2>国际快递您<span>需要</span>了解的问题</h2>
+				</div>
+				<div id="xiangguan">
+					<a href="#">
+						<div class="xianguan-1">
+							<div class="xianguan-1-left">
+								<h2>05-08</h2>
+								<h3>2020</h3>
+							</div>
+							<div class="xianguan-1-right">
+								<h2>DHL快递到欧盟价格</h2>
+								<h3>点击查看详情</h3>
+							</div>
+						</div>
+					</a>
+					<a href="#">
+						<div class="xianguan-1">
+							<div class="xianguan-1-left">
+								<h2>05-08</h2>
+								<h3>2020</h3>
+							</div>
+							<div class="xianguan-1-right">
+								<h2>DHL快递到欧盟价格</h2>
+								<h3>点击查看详情</h3>
+							</div>
+						</div>
+					</a>
+					<a href="#">
+						<div class="xianguan-1">
+							<div class="xianguan-1-left">
+								<h2>05-08</h2>
+								<h3>2020</h3>
+							</div>
+							<div class="xianguan-1-right">
+								<h2>DHL快递到欧盟价格</h2>
+								<h3>点击查看详情</h3>
+							</div>
+						</div>
+					</a>
+					<a href="#">
+						<div class="xianguan-1">
+							<div class="xianguan-1-left">
+								<h2>05-08</h2>
+								<h3>2020</h3>
+							</div>
+							<div class="xianguan-1-right">
+								<h2>DHL快递到欧盟价格</h2>
+								<h3>点击查看详情</h3>
+							</div>
+						</div>
+					</a>
+					<a href="#">
+						<div class="xianguan-1">
+							<div class="xianguan-1-left">
+								<h2>05-08</h2>
+								<h3>2020</h3>
+							</div>
+							<div class="xianguan-1-right">
+								<h2>DHL快递到欧盟价格</h2>
+								<h3>点击查看详情</h3>
+							</div>
+						</div>
+					</a>
+					<a href="#">
+						<div class="xianguan-1">
+							<div class="xianguan-1-left">
+								<h2>05-08</h2>
+								<h3>2020</h3>
+							</div>
+							<div class="xianguan-1-right">
+								<h2>DHL快递到欧盟价格</h2>
+								<h3>点击查看详情</h3>
+							</div>
+						</div>
+					</a>
+					<a href="#">
+						<div class="xianguan-1">
+							<div class="xianguan-1-left">
+								<h2>05-08</h2>
+								<h3>2020</h3>
+							</div>
+							<div class="xianguan-1-right">
+								<h2>DHL快递到欧盟价格</h2>
+								<h3>点击查看详情</h3>
+							</div>
+						</div>
+					</a>
+					<a href="#">
+						<div class="xianguan-1">
+							<div class="xianguan-1-left">
+								<h2>05-08</h2>
+								<h3>2020</h3>
+							</div>
+							<div class="xianguan-1-right">
+								<h2>DHL快递到欧盟价格</h2>
+								<h3>点击查看详情</h3>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script src="./js/vue.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/国际快递.js" type="text/javascript" charset="utf-8"></script>
+</html>

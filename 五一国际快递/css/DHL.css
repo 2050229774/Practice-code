@@ -1,0 +1,155 @@
+body {
+	background-color: #E3E3E3;
+}
+
+/* 第二部分 */
+#zheng-bei-2 {
+	background-image: url(../img/国际快递/飞机背景.png);
+	background-size: cover;
+	height: 300px;
+	overflow: hidden;
+	color: #fffffe;
+}
+#zheng-bei-2 h1 {
+	width: 180px;
+	margin: 0 auto;
+	margin-top: 70px;
+	padding-bottom: 10px;
+	border-bottom: #fffffe solid 2px;
+}
+#zheng-bei-2 p {
+	text-align: center;
+	margin-top: 50px;
+}
+
+/* 第三部分 */
+.biaoti-1 {
+	margin-top: 40px;
+	margin-bottom: 40px;
+	color: #2e2b69;
+}
+
+.biaoti-1 h1 {
+	text-align: center;
+}
+
+.biaoti-1 span {
+	border-bottom: #E59B4C solid 2px;
+}
+
+#jianshao {
+	height: 350px;
+	background-color: #FFFFFE;
+}
+#jianshao img {
+	float: left;
+	height: 350px;
+	width: 500px;
+}
+#jianshao-right {
+	float: left;
+	width: 600px;
+	height: 350px;
+	margin-left: 50px;
+	margin-top: 25px;
+}
+#jianshao-right p {
+	float: left;
+	height: 200px;
+	text-indent: 2em;
+	font-size: 0.9em;
+	overflow: inherit;
+}
+#jianshao-right ul {
+	float: left;
+	width: 500px;
+	height: 100px;
+	font-size: 1em;
+}
+#jianshao-right li {
+	float: left;
+	width: 240px;
+	margin-right: 10px;
+	margin-top: 5px;
+}
+
+/* 第四部分 */
+#youshi {
+	height: 100px;
+	background-color: #FFFFFF;
+}
+#youshi div {
+	width: 300px;
+	height: 100px;
+	float: left;
+}
+#youshi h2 {
+	text-align: center;
+	#2e2b69
+}
+#youshi img {
+	width: 40px;
+	height: 40px;
+	margin-left: 130px;
+	margin-top: 20px;
+}
+
+/* 第五部分 */
+#shixiao {
+	height: 150px;
+	width: 1200px;
+}
+#shixiao table {
+	border: none;
+	margin-bottom: 50px;
+}
+#shixiao th {
+	width: 150px;
+	height: 40px;
+	background-color: #2e2b69;
+	color: #FFFFFF;
+	border: none;
+	border-right: #E3E3E3 solid 1px;
+}
+#shixiao td {
+	background-color: #FFFFFF;
+	border: none;
+	border-right: #E3E3E3 solid 1px;
+	text-align: center;
+}
+
+/* 第六部分*/
+#zheng-bei-6 {
+	background-color: #FFFFFF;
+	height: 200px;
+	overflow: hidden;
+}
+#zheng-bei-6-1 {
+	width: 1000px;
+	margin: 0 auto;
+}
+.liucehng {
+	float: left;
+	width: 200px;
+	height: 100px;
+	background-color: #E3E3E3;
+	margin-right: 10px;
+}
+.liucehng img {
+	width: 30px;
+	height: 30px;
+	margin: 20px 0 0 80px;
+}
+.liucehng h2 {
+	text-align: center;
+	font-size: 1em;
+}
+.fenge {
+	width: 20px;
+	height: 5px;
+	background-color: #1E90FF;
+	float: left;
+	margin-right: 10px;
+	margin-top: 48px;
+	border-radius: 50px;
+}

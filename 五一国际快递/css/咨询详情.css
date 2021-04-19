@@ -1,0 +1,199 @@
+body {
+	background-color: #FFFFFF;
+}
+
+/* 第二部分 */
+#zheng-bei-2 {
+	background-image: url(../img/关于我们/手指.png);
+	background-size: cover;
+	height: 300px;
+	overflow: hidden;
+	color: #fffffe;
+}
+#zheng-bei-2 h1 {
+	width: 135px;
+	margin: 0 auto;
+	margin-top: 70px;
+	padding-bottom: 10px;
+	border-bottom: #fffffe solid 2px;
+}
+#zheng-bei-2 p {
+	width: 800px;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 50px;
+}
+/* 第三部分 */
+#zheng-bei-3 {
+	height: 100px;
+}
+#zheng-bei-3-biaoti {
+	float: left;
+	margin-top: 50px;
+	height: 50px;
+}
+#zheng-bei-3-biaoti h1{
+	font-size: 25px;
+	margin-bottom: 5px;
+}
+#zheng-bei-3-biaoti h3{
+	text-transform: uppercase;
+	color: #cccccc;
+}
+#zheng-bei-3-nav {
+	float: right;
+	margin-top: 48px;
+	height: 50px;
+}
+.gongyou {
+	float: left;
+	width: 100px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	margin-right: 50px;
+}
+#dangqian {
+	border-bottom: solid #3e408a 3px;
+}
+/* 第四部分 */
+#zheng-bei-4 {
+	height: 100px;
+	text-align: center;
+	overflow: hidden;
+}
+#zheng-bei-4 h1 {
+	margin-top: 40px;
+}
+/* 第五部分 */
+#zheng-bei-5 {
+	height: 100px;
+}
+#beijing {
+	height: 100px;
+	background-color: #f3f3f3;
+}
+#guanjianzi {
+	margin-top: 50px;
+	width: 800px;
+	float: left;
+}
+#guanjianzi span {
+	color: #999999;
+}
+#guanjianzi a {
+	font-size: 14px;
+	display: inline-block;
+	height: 20px;
+	width: 100px;
+	text-align: center;
+	line-height: 20px;
+	color: #cccccc;
+	border: #E3E3E3 solid 2px;
+}
+#guanjianzi a:hover {
+	background-color: #999999;
+	color: #FFFFFF;
+}
+#shijian {
+	margin-top: 55px;
+	float: left;
+	width: 150px;
+	font-size: 12px;
+}
+#shijian  img{
+	
+	float: left;
+}
+#shijian  p{
+	float: left;
+}
+#fenge {
+	float: left;
+	margin-top: 53px;
+	height: 20px;
+	width: 2px;
+	background-color: #000000;
+}
+/* 页首button样式清除 */
+#gongnen {
+	float: left;
+	margin-left: 20px;
+	margin-top: 50px;
+}
+#gongnen button{
+	margin-left: 10px;
+}
+/* 第六部分 */
+#zheng-bei-6>div{
+	width: 1000px;
+}
+#zheng-bei-6 p {
+	margin-top: 40px;
+	text-indent: 2em;
+	font-size: 20px; 
+	/* 小10大30 */
+}
+#zheng-bei-6 img {
+	display: block;
+	width: 600px;
+	height: 350px;
+	margin: 0 auto;
+}
+/* 第七部分 */
+#zheng-bei-7 {
+	height: 50px;
+	border-bottom: #B2B3DE 2px solid;
+	border-top: #B2B3DE 2px solid;
+	margin-top: 50px;
+	font-size: 12px;
+}
+#zheng-bei-7>div {
+	height: 50px;
+}
+#zheng-bei-7-left {
+	float: left;
+	height: 12px;
+	position: relative;
+	top: 50%;
+	margin-top: -6px;
+}
+#zheng-bei-7-zhong {
+	float: left;
+	width: 120px;
+	height: 20px;
+	margin-left: 180px;
+	position: relative;
+	top: 50%;
+	margin-top: -10px;
+}
+#zheng-bei-7-zhong a{
+	margin-right: 4px;
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: url(../img/咨询详情/首次精灵图.png) no-repeat;
+}
+
+#zheng-bei-7-zhong a:first-child {
+	background-position: -12px -15px;
+}
+#zheng-bei-7-zhong a:nth-child(2) {
+	background-position: -67px -15px;
+}
+#zheng-bei-7-zhong a:nth-child(3) {
+	background-position: -118px -15px;
+}
+#zheng-bei-7-zhong a:nth-child(4) {
+	background-position: -170px -15px;
+}
+#zheng-bei-7-zhong a:nth-child(5) {
+	background-position: -226px -15px;
+}
+#zheng-bei-7-right {
+	float: right;
+	height: 12px;
+	position: relative;
+	top: 50%;
+	margin-top: -6px;
+}

@@ -1,0 +1,41 @@
+[{
+		"name": "微视频",
+		"url": "./img/covers/9787121336041.jpg"
+	},
+	{
+		"name": "PLC",
+		"url": "./img/covers/9787121335969.jpg"
+	},
+	{
+		"name": "模具分析",
+		"url": "./img/covers/9787121335990.jpg"
+	},
+	{
+		"name": "疯狂",
+		"url": "./img/covers/9787121351976.jpg"
+	},
+	{
+		"name": "摄影",
+		"url": "./img/covers/9787121353598.jpg"
+	},
+	{
+		"name": "linux",
+		"url": "./img/covers/9787121398728.jpg"
+	},
+	{
+		"name": "rust",
+		"url": "./img/covers/9787121354854.jpg"
+	},
+	{
+		"name": "python",
+		"url": "./img/covers/9787121397882.jpg"
+	},
+	{
+		"name": "网络安全",
+		"url": "./img/covers/9787121398810.jpg"
+	},
+	{
+		"name": "flink",
+		"url": "./img/covers/9787121399114.jpg"
+	}
+]

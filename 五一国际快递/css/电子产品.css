@@ -1,0 +1,74 @@
+body {
+	background-color: #f7f7f7;
+}
+/* 第二部分 */
+#zheng-bei-2 {
+	background-image: url(../img/国际快递/飞机背景.png);
+	background-size: cover;
+	height: 300px;
+	overflow: hidden;
+	color: #fffffe;
+}
+#zheng-bei-2 h1 {
+	width: 135px;
+	margin: 0 auto;
+	margin-top: 70px;
+	padding-bottom: 10px;
+	border-bottom: #fffffe solid 2px;
+}
+#zheng-bei-2 p {
+	width: 800px;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 50px;
+}
+/* 第三部分 */
+#zheng-bei-3 {
+	height: 40px;
+	line-height: 40px;
+	border-bottom: #ebebeb 3px solid;
+	font-weight: 800;
+}
+#zheng-bei-3 a {
+	margin: 0 10px;
+}
+.biaoti-1 {
+	margin-top: 40px;
+	margin-bottom: 40px;
+	color: #2e2b69;
+}
+
+.biaoti-1 h1 {
+	text-align: center;
+}
+
+.biaoti-1 span {
+	border-bottom: #E59B4C solid 2px;
+}
+#neirong {
+	width: 1000px;
+	margin: 0 auto;
+}
+#neirong p {
+	text-indent: 2em;
+	margin-bottom: 30px;
+}
+#guanjianzi {
+	
+}
+#guanjianzi span {
+	margin-right: 30px;
+	color: #999999;
+}
+#guanjianzi a {
+	display: inline-block;
+	height: 20px;
+	width: 120px;
+	text-align: center;
+	line-height: 20px;
+	color: #cccccc;
+	border: #E3E3E3 solid 2px;
+}
+#guanjianzi a:hover {
+	background-color: #999999;
+}

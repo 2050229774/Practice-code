@@ -1,0 +1,74 @@
+body {
+	background-color: #FFFFFF;
+}
+
+/* 第二部分 */
+#zheng-bei-2 {
+	background-image: url(../img/国际快递/飞机背景.png);
+	background-size: cover;
+	height: 300px;
+	overflow: hidden;
+	color: #fffffe;
+}
+#zheng-bei-2 h1 {
+	width: 200px;
+	margin: 0 auto;
+	margin-top: 100px;
+	padding-bottom: 10px;
+	border-bottom: #fffffe solid 2px;
+}
+/* 第三部分 */
+#zheng-bei-3 {
+	width: 1200px;
+	height: 60px;
+	margin-top: 30px;
+}
+#zheng-bei-3 ul {
+	width: 1000px;
+	margin: 0 auto;
+}
+#zheng-bei-3 li {
+	float: left;
+	height: 30px;
+	width: 120px;
+	text-align: center;
+	line-height: 30px;
+	margin-right: 20px;
+	background-color: #f2f2f2;
+}
+/* 第四部分 */
+#zheng-bei-4-neirong {
+	background-color: #2E2B69;
+	height: 400px;
+	width: 800px;
+	margin: 0 auto;
+	color: #FFFFFF;
+	overflow: hidden;
+}
+#zheng-bei-4-neirong p {
+	width: 700px;
+	margin: 30px auto;
+	text-indent: 2em;
+}
+/* 第五部分 */
+#zheng-bei-5 {
+	height: 350px;
+	background-image: url(../img/国际快递/Q&A.png);
+	background-size: cover;
+}
+#zheng-bei-5-liucheng {
+	height: 200px;
+	width: 800px;
+	background-color: rgba(234,234,233,0.5);
+	margin: 0 auto;
+	overflow: hidden;
+}
+#zheng-bei-5-liucheng li{
+	list-style-type: decimal;
+	margin-left: 50px;
+	margin-top: 50px;
+	color: #E59B4C;
+}
+#zheng-bei-5-liucheng p{
+	color: black;
+}

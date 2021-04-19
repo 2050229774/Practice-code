@@ -1,0 +1,165 @@
+body {
+	background-color: #f7f7f7;
+}
+
+/* 第二部分 */
+#zheng-bei-2 {
+	background-image: url(../img/关于我们/手指.png);
+	background-size: cover;
+	height: 300px;
+	overflow: hidden;
+	color: #fffffe;
+}
+#zheng-bei-2 h1 {
+	width: 135px;
+	margin: 0 auto;
+	margin-top: 70px;
+	padding-bottom: 10px;
+	border-bottom: #fffffe solid 2px;
+}
+#zheng-bei-2 p {
+	width: 800px;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 50px;
+}
+/* 第三部分 */
+#zheng-bei-3 {
+	height: 100px;
+}
+#zheng-bei-3-biaoti {
+	float: left;
+	margin-top: 50px;
+	height: 50px;
+}
+#zheng-bei-3-biaoti h1{
+	font-size: 25px;
+	margin-bottom: 5px;
+}
+#zheng-bei-3-biaoti h3{
+	text-transform: uppercase;
+	color: #cccccc;
+}
+#zheng-bei-3-nav {
+	float: right;
+	margin-top: 48px;
+	height: 50px;
+}
+.gongyou {
+	float: left;
+	width: 100px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	margin-right: 50px;
+}
+#dangqian {
+	border-bottom: solid #3e408a 3px;
+}
+/* 第四部分 */
+#zheng-bei-4 {
+	height: 1300px;
+}
+.c-bei {
+	height: 250px;
+	border-top: solid #ebebeb 1px;
+	border-bottom: solid #ebebeb 1px;
+}
+.c-bei:hover {
+	background-color: #ebebeb;
+}
+.c-shijian {
+	float: left;
+	width: 100px;
+	height: 60px;
+	margin-top: 100px;
+	margin-right: 30px;
+	text-align: center;
+}
+.c-shijian h1{
+	border-right: #ebebeb solid 2px;
+}
+.c-shijian h4{
+	color: #cccccc;
+	border-right: #ebebeb solid 2px;
+}
+.c-neirong {
+	float: left;
+	width: 800px;
+	margin-top: 80px;
+	margin-right: 70px;
+}
+.c-neirong h3 {
+	font-weight: 900;
+	margin-bottom: 5px;
+}
+.c-neirong p {
+	margin-bottom: 20px;
+}
+#guanjianzi {
+	width: 800px;
+}
+#guanjianzi span {
+	color: #999999;
+}
+#guanjianzi a {
+	font-size: 14px;
+	display: inline-block;
+	height: 20px;
+	width: 100px;
+	text-align: center;
+	line-height: 20px;
+	color: #cccccc;
+	border: #E3E3E3 solid 2px;
+}
+#guanjianzi a:hover {
+	background-color: #999999;
+	color: #FFFFFF;
+}
+.c-tupian {
+	width: 200px;
+	height: 130px;
+	float: left;
+	margin-top: 80px;
+}
+.c-tupian img{
+	width: 200px;
+	height: 130px;
+}
+/* 第五部分 */
+#zheng-bei-5 {
+	height: 60px;
+}
+#wei-nav {
+	width: 300px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+#wei-nav>a{
+	float: left;
+	margin-top: 3px;
+}
+#wei-nav div {
+	float: left;
+	margin: 0 10px;
+}
+#wei-nav button {
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	background-color: #b2b3de;
+	/* 字体设置 */
+}
+/* 伪类 */
+#wei-nav a:link {
+	color: #000000;
+}
+#wei-nav a:visited {
+	color: #b2b3de;
+}
+#wei-nav a:hover {
+	color: #FFD400;
+}
+#wei-nav a:active {
+	color: #FFFFFF;
+}

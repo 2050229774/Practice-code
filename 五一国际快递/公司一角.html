@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>公司一角</title>
+		<link rel="icon" type="image/x-icon" href="./img/首页/log.png" />
+		<link rel="stylesheet" type="text/css" href="./css/公司一角.css"/>
+		<link rel="stylesheet" type="text/css" href="./css/页首.css"/>
+	</head>
+	<body>
+		<div class="zheng-bei-1">
+			<div class="jv">
+				<div class="lanbei">
+					<div class="baioti">
+						<img src="./img/首页/51GUOJI.png" alt="51国际快递">
+						<div>
+							<h1>五一国际快递</h1>
+							<p>跨境电商供应链一站式服务平台</p>
+						</div>
+					</div>
+					<div class="guding">
+						<div class="sou">
+							<input type="text" name="" id="text" value="" placeholder="关键词" />
+							<button id="ti"><img src="img/首页/搜索.png" alt="搜索"></button>
+						</div>
+					</div>
+				</div>
+				<div class="jiaocha"></div>
+				<div class="daohang">
+					<div id="app" @mouseover="fy" @mouseout="fn">
+						<span>快速导航</span>
+						<img src="./img/首页/导航栏.png">
+						<ul v-show="dao">
+							<li><a href="index.html">首页</a></li>
+							<li><a href="咨询详情.html" target="_blank">咨询详情</a></li>
+							<li><a href="联系我们.html" target="_blank">联系我们</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="zheng-bei-2">
+			<div class="jv">
+				<h1>关于我们</h1>
+				<p>51国际让搬家变得更简单</p>
+			</div>
+		</div>
+		<div id="zheng-bei-3" class="jv">
+			<a href="关于我们.html">
+				<div><img src="./img/关于我们/公司.png">
+					<h3>公司简介</h3>
+				</div>
+			</a>
+			<a href="企业文化.html">
+			<div><img src="./img/关于我们/文化.png">
+				<h3>企业文化</h3>
+			</div>
+			</a>
+			<a href="合作用户.html">
+			<div><img src="./img/关于我们/客户.png">
+				<h3>合作客户</h3>
+			</div>
+			</a>
+			<a href="#">
+			<div id="dangqian"><img src="./img/关于我们/公司.png">
+				<h3>公司一角</h3>
+			</div>
+			</a>
+			<a href="员工之家.html">
+			<div><img src="./img/关于我们/员工.png">
+				<h3>员工之家</h3>
+			</div>
+			</a>
+			<a href="联系我们.html">
+			<div><img src="./img/关于我们/媒体.png">
+				<h3>联系我们</h3>
+			</div>
+			</a>
+		</div>
+		<div id="zheng-bei-4">
+			<div class="jv">
+				<div><h1>办公区</h1><h3>Enterprise Culture</h3><img src="./img/关于我们/办公区-2.png" alt=""/><img src="./img/关于我们/办公区-1.png" alt=""/></div>
+				<div><h1>休息区</h1><h3>Enterprise Culture</h3><img src="./img/关于我们/休息区2.png" alt=""/><img src="./img/关于我们/休息区1.png" alt=""/></div>
+			</div>
+		</div>
+	<script src="./js/vue.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/页首.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>

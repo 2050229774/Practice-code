@@ -1,0 +1,191 @@
+/* 样式清除 */
+	body,
+	div,
+	h1,
+	img,
+	h3,
+	p,
+	ul,
+	li,
+	table {
+		margin: 0;
+		padding: 0;
+	}
+	
+	ul,
+	li{
+		list-style-type: none;
+	}
+	a {
+		color: darkseagreen;
+		text-decoration: none;
+	}
+
+	/* 共有属性 */
+	*{
+		font-family: "楷体";
+		font-size: 20px;
+	}
+	.yanse{
+		color: darkseagreen;
+	}
+	.fu{
+		float: left;
+	}
+
+	/* 整体布局 */
+	.j-z {
+		width: 930px;
+		height: 1316px;
+		margin: 0 auto;
+	}
+
+	.sy {
+		overflow: hidden;
+	}
+
+	.zhanwei {
+		height: 150px;
+	}
+
+	.zhanwei1 {
+		float: left;
+		width: 260px;
+		height: 1px;
+	}
+	
+	/* 内容布局 */
+	.n-s{
+		height: 300px;
+		
+	}
+	.n-s-1{
+		height: 100px;
+	}
+	.n-s-2{
+		color: #F8F8FF;
+		height: 200px;
+		background-color: darkseagreen;
+	}
+	.n-a{
+		height: 200px;
+	}
+	.n-a-1{
+		height: 70px;
+	}
+	/* 元素布局及样式 */
+	#b-bei {
+		background-color: ghostwhite;
+	}
+
+	.bei {
+		width: 930px;
+		height: 1316px;
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		display: inline-block;
+		float: left;
+	}
+	.bei-s{
+		background-image: url(../img/首页.png);
+	}
+	.bei-n{
+		background-image: url(../img/内容.png);
+	}
+	.bei-j{
+		background-image: url(../img/结尾.png);
+	}
+	.bt {
+		margin-top: 350px;
+		font-size: 170px;
+		text-align: center;
+	}
+
+	.a {
+		text-align: center;
+		margin-top: 100px;
+	}
+
+	.resume {
+		font-size: 100px;
+		text-transform: uppercase;
+		border: solid darkseagreen;
+		text-indent: 20px;
+		letter-spacing: 20px;
+		display: inline-block;
+	}
+
+	.w {
+		font-size: 30px;
+	}
+	.zw{
+		height: 50px;
+	}
+	.weilei:hover{
+		color: steelblue;
+	}
+	/* 内容样式 */
+	.n-s-1 *{
+		margin-left:100px;
+		height: 100px;
+		line-height: 100px;
+	}
+	.n-h1{
+		font-size: 60px;
+		
+	}
+	.n-h2{
+		font-size: 30px;
+	}
+	.n-p{
+		margin-left:25px;
+	}
+	.n-s-2 li{
+		margin: 20px 0 20px 100px ;
+	}
+	.n-s-m{
+		position: absolute;
+		top: 60px;
+		left: 1000px;
+		border: solid #8FBC8F;
+	}
+	.n-h3{
+		height: 70px;
+		line-height: 70px;
+		font-size: 30px;
+	}
+	.n-sp{
+		text-indent: 2em;
+		line-height: 40px;
+	}
+	.n-ul li{
+		height: 40px;
+	}
+	.j{
+		font-size: 100px;
+		height: 1316px;
+		line-height: 1316px;
+		margin: 0 auto;
+	}
+	.z-w{
+		width: 250px;
+		height: 1316px;
+	}
+	#dw{
+		width: 50px;
+		height: 1316px;
+		position: absolute;
+		float: left;
+	}
+	#dw-1{
+		width: 100px;
+		height: 1316px;
+		position: absolute;
+		float: left;
+	}
+	.huoqv{
+		width: 50px;
+	}
+	#huo{
+		width: 50px;
+	}

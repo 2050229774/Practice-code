@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" href="./css/实时数据.css">
+		<script type="text/javascript" <script src="//api.map.baidu.com/api?type=webgl&v=1.0&ak=TzAXSG0kO20c8roWed4mU7KwFjAXC72i"></script>
+	</head>
+	<body>
+		<!-- 用响应式布局 -->
+		<div id="biaoti">
+			<h1>本公司数据展示</h1>
+			<span id="app">
+				12.36
+				<!-- 时间应该从后台传入，具有统一性，而从客户端获取存在不确定性 -->
+			</span>
+		</div>
+		<div id="nei">
+			<div id="nei-left">
+				<div id="nei-left-zhu">
+					<!-- 柱状图 -->
+					
+				</div>
+				<div id="nei-left-bing">
+					<!-- 饼图 -->
+					
+				</div>
+			</div>
+			<div id="nei-zhong">
+				<!-- 地图 -->
+				<div id="nei-zhong-map">
+					
+				</div>
+			</div>
+			<div id="nei-right">
+				<div id="nei-right-zhe">
+					<!-- 折线图 -->
+					
+				</div>
+				<div id="nei-right-san">
+					<!-- 散点图 -->
+					
+				</div>
+			</div>
+		</div>
+		<script src="./js/echarts.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/实时数据.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>

@@ -1,0 +1,138 @@
+body,
+div,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+a {
+	margin: 0;
+	border: 0;
+	padding: 0;
+}
+
+/* css3上 媒体查询*/
+
+body {
+	display: -webkit-flex;
+	display: flex;
+	flex-flow: row wrap;
+}
+
+#biaoti {
+	width: 100%;
+	height: 100px;
+	background-color: #2E2B69;
+	color: #f1f1f1;
+	display: -webkit-flex;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-end;
+	align-items: center;
+}
+#biaoti h1 {
+	width: 100%;
+	text-align: center;
+}
+#biaoti span {
+	margin-right: 5%;
+}
+#nei {
+	width: 100%;
+	height: 700px;
+	background-color: #b2b3de;;
+	display: -webkit-flex;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: space-around;
+}
+
+#nei-left,
+#nei-right{
+	width: 30%;
+	height: 100%;
+	background-color: #b2b3de;;
+	display: -webkit-flex;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+#nei-zhong {
+	width: 40%;
+	height: 100%;
+	background-color:  #b2b3de;;
+	display: -webkit-flex;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
+}
+#nei-zhong-map {
+	width: 90%;
+	height: 70%;
+	background-color: #E3E3E3;
+}
+
+#nei-left-zhu,
+#nei-left-bing,
+#nei-right-san,
+#nei-right-zhe{
+	background-color: #FFFFFE;
+	height: 40%;
+	width: 90%;
+}
+
+@media only screen and (max-width: 1000px) {
+	#nei {
+		height: 1400px;
+	}
+	
+	#nei-left {
+		order: 1;
+		width: 50%;
+		height: 50%;
+	}
+	#nei-zhong {
+		order: 3;
+		width: 100%;
+		height: 50%;
+	}
+	#nei-right {
+		order: 2;
+		width: 50%;
+		height: 50%;
+	}
+	
+	
+}
+@media only screen and (max-width: 600px) {
+	#nei {
+		height: 2100px;
+	}
+	
+	#nei-left {
+		order: 1;
+		width: 100%;
+		height: 33%;
+	}
+	
+	#nei-zhong {
+		order: 2;
+		width: 100%;
+		height: 33%;
+	}
+	
+	#nei-right {
+		order: 3;
+		width: 100%;
+		height: 33%;
+	}
+	
+}

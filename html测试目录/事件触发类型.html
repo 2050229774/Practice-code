@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style type="text/css">
+			.he {
+				height: 100px;
+				width: 100px;
+			}
+			#guendong {
+				height: 100px;
+				width: 100px;
+				overflow: scroll;
+				margin: 0;
+				padding: 0;
+			}
+			#guendong img{
+				height: 100px;
+				width: 100px;
+				margin: 0;
+				padding: 0;
+			}
+		</style>
+	</head>
+	
+	<body>
+		<div class="he" style="background-color: #000000;" onclick="dianji()"></div>
+		<div class="he" style="background-color: #1E90FF;" ondblclick="shaungji()"></div>
+		<div class="he" style="background-color: #FF0000;" onmousedown="mousedown()" onmouseup="mouseup()"></div>
+		<div class="he" style="background-color: #5F9EA0;" onmouseover="mouseover()" onmouseout	="mouseout()"></div>
+		<div class="he" style="background-color: #C9EEF7;" onkeydown="keydown()"><input type="text" id="" value="" /></div>
+		
+		 <div class="he" style="background-color: #B2B3DE;"  onload="load()"></div>
+		 <div class="he" style="background-color: #000000;" id="a"></div>
+		<!--滚动事件 -->
+		 <div id="guendong" onscroll="gongdun()">
+			 <img src="img/covers/9787121353598.jpg" >
+			 <img src="img/covers/9787121353598.jpg" >
+			 <img src="img/covers/9787121353598.jpg" >
+			 <img src="img/covers/9787121353598.jpg" >
+			 <img src="img/covers/9787121353598.jpg" >
+			 <img src="img/covers/9787121353598.jpg" >
+			 </div>
+	</body>
+	<script type="text/javascript">
+		function dianji() {
+			console.log("单击事件触发了");
+		}
+		function shaungji() {
+			console.log("双击事件触发了");
+		}
+		function mousedown() {
+			console.log("按下鼠标事件触发了");
+		}
+		function mouseup() {
+			console.log("鼠标按下后松开鼠标时触发此事件");
+		}
+		function mouseover() {
+			console.log("鼠标移动到了该对象");
+		}
+		function mouseout() {
+			console.log("鼠标移开了该对象");
+		}
+		function keydown() {
+			console.log("键盘上的某个键被按下并且释放时触发此事件");
+		}
+		// keydown: 当用户按下任意键时触发，而且按住不放的话，会重复触发此事件。
+		
+		// keypress: 当用户按下字符键时触发，而且按住不放的话，会重复触发此事件。按下Esc键也会触发这个事件，safari3.1之前的版本按下非字符键时也触发。
+		
+		// keyup: 当用户释放键时触发。
+		function load() {
+			console.log("页面加载完毕");
+		}
+		// 窗口发生改动事件
+		// 此事件需要绑定到全局对象上使用
+		var a = document.getElementById("a");
+		window.onresize = function () {
+			console.log("浏览器窗口发生了变化");
+		}
+		// 滚动
+		function gongdun() {
+			console.log("滚动事件发生");
+		}
+	</script>
+</html>

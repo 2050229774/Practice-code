@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<p>你好</p>
+		<script type="text/javascript">
+			console.log(document.getElementsByTagName('p')[0].outer)
+			function Gouzao(name,age,size) {
+				this.name = name;
+				this.age = age;
+				this.size = size;
+				this.fun = function(){
+					console.log(age+size);
+				}
+			}
+			var a = new Gouzao('赵云',10,20);
+			var a1 = new Gouzao('李白',11,20);
+			console.log(a===a1);
+			console.log(a.age,a1.age)
+		</script>
+	</body>
+</html>

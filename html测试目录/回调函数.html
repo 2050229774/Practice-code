@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			// 最常见的回调函数、事件注册、延时函数，（将函数作为参数的函数）:即在满足先前条件下在选择性执行回调函数
+			var huidiao = function(j){
+				console.log(j);
+			}
+			function otherfun(i,c){		//此处的c等同是否满足了事件触发的条件
+				// 先前条件
+				if(c>0){
+					// 依据先前条件进行执行函数
+					var a = 10;
+					i(a);
+				}
+				else{
+					// 依据先前条件进行执行函数
+					var a = -10;
+					i(a);
+				}
+			}
+			otherfun(huidiao,1);
+		</script>
+	</body>
+</html>

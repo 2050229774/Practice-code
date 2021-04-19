@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+	</body>
+	<script type="text/javascript">
+		console.log("字符串连接符于算数运算符")
+		console.log("字符串+其他==字符串：",1+"1");
+		console.log("数字+布尔值==数字：",1+true);
+		console.log("数字+null==数字：",1+null);
+		console.log("数字+undefined==nan：",1+undefined);
+		console.log("关系运算符,会把其他数据类型转换成number之后再比较关系")
+		console.log("数字与字符串==（字符串如可以转换为转换为数字,如不能将进行编码顺序比较）：",'1'>10,'a'>'b');
+		console.log("nan与nan任何比较都是false",NaN==NaN);
+		console.log(null==undefined);
+		console.log(null===undefined);
+		console.log([] == 0);
+		console.log(![] == 0);
+		console.log([] == ![]);
+		console.log([] == []);
+		console.log({} == !{});
+		console.log({} == {});
+	</script>
+</html>

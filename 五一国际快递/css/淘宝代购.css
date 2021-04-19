@@ -1,0 +1,205 @@
+body {
+	background-color: #FFFFFF;
+}
+
+/* 第二部分 */
+#zheng-bei-2 {
+	background-image: url(../img/淘宝代购/蓝色飞机背景.png);
+	background-size: cover;
+	height: 300px;
+	overflow: hidden;
+	color: #fffffe;
+}
+#zheng-bei-2 h1 {
+	width: 135px;
+	margin: 0 auto;
+	margin-top: 70px;
+	padding-bottom: 10px;
+	border-bottom: #fffffe solid 2px;
+}
+#zheng-bei-2 p {
+	width: 800px;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 50px;
+}
+
+/* 第三部分 */
+#zheng-bei-3 {
+	height: 600px;
+}
+#zheng-bei-3 h1{
+	font-size: 30px;
+}
+#zheng-bei-3-biaoti {
+	width: 350px;
+	height: 50px;
+	margin: 100px auto;
+}
+#zheng-bei-3-neirong {
+	width: 800px;
+	height: 400px;
+	margin: 0 auto;
+	margin-bottom: 100px;
+}
+#zheng-bei-3-neirong div{
+	width: 200px;
+	height: 400px;
+	float: left;
+	color: #FFFFFF;
+}
+#zheng-bei-3-neirong h1 {
+	margin-top: 150px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+/* 第四部分 */
+#zheng-bei-4 {
+	height: 600px;
+	background-image: url(../img/淘宝代购/网格.png);
+	background-size: cover;
+	background-position: center;
+	overflow: hidden;
+}
+#zheng-bei-4-biaoti {
+	width: 140px;
+	margin: 0 auto;
+	font-size: 10px;
+	margin-top: 70px;
+}
+#zheng-bei-4-left {
+	float: left;
+	width: 200px;
+	margin-left: 210px;
+}
+#zheng-bei-4-left div {
+	float: left;
+	height: 150px;
+	width: 150px;
+	background-color: #CCCCCC;
+	transform: rotate(45deg);
+	margin-bottom: 70px;
+	
+}
+#zheng-bei-4-left h2{
+	font-size: 15px;
+	text-align: center;
+	transform: rotate(-45deg);
+}
+#zheng-bei-4-left img{
+	width: 40px;
+	margin-top:30px;
+	margin-left: 30px;
+	transform: rotate(-45deg);
+}
+#zheng-bei-4-right {
+	float: left;
+	width: 200px;
+	margin-left: 210px;
+}
+#zheng-bei-4-right div {
+	float: left;
+	height: 150px;
+	width: 150px;
+	background-color: #CCCCCC;
+	transform: rotate(45deg);
+	margin-bottom: 70px;
+	
+}
+#zheng-bei-4-right h2{
+	font-size: 15px;
+	text-align: center;
+	transform: rotate(-45deg);
+}
+#zheng-bei-4-right img{
+	width: 40px;
+	margin-top:30px;
+	margin-left: 30px;
+	transform: rotate(-45deg);
+}
+#zheng-bei-4-zhong {
+	float: left;
+	width: 220px;
+}
+/* 第五部分 */
+#zheng-bei-5 {
+	margin-top: 80px;
+}
+#zheng-bei-5>div>img {
+	float: left;
+}
+#zheng-bei-5-biaoti {
+	float: left;
+	margin-left: 40px;
+	margin-right: 400px;
+}
+#zheng-bei-5-biaoti h1{
+	font-family: 方正舒体;
+	margin-top: 20px;
+	color: #852505;
+	font-size: 3em;
+}
+#zheng-bei-5-flow {
+	float: left;
+	margin-top: 50px;
+}
+#zheng-bei-5-flow-below {
+	float: left;
+	margin-top: 100px;
+	margin-left: 100px;
+}
+.lianjian {
+	float: left;
+	width: 100px;
+}
+.lianjian span {
+	float: left;
+	font-size: 20px;
+	margin-left: 45px;
+	color: #3e408a;
+}
+.lianjian div {
+	float: left;
+	width: 100px;
+	height: 3px;
+	margin-top: 22px;
+	background-color: #E9B101;
+}
+.rotate {
+	float: left;
+	width: 100px;
+	height: 100px;
+	background-color: #3e408a;
+	transform: rotate(45deg);
+	overflow: hidden;
+	/* 添加阴影 */
+	box-shadow: 5px -5px 8px #888888;
+}
+.rotate img {
+	width: 36px;
+	transform: rotate(-45deg);
+	margin-left: 10px;
+	margin-top: 10px;
+}
+.rotate p {
+	transform: rotate(-45deg);
+	text-align: center;
+	font-size: 12px;
+	margin-left: 16px;
+		color: #FFFFFF;
+}
+.lianjian-shu {
+	position: absolute;
+	width: 3px;
+	height: 205px;
+	background-color: #E9B101;
+	margin-top: 48px;
+	margin-left: 1100px;
+}
+.huang {
+	color: #e9b101 !important;
+}
+.huang-colr {
+	background-color: #E9B101;
+	color: #FFFFFF;
+}

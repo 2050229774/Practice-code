@@ -1,0 +1,141 @@
+body {
+	background-color: #f7f7f7;
+}
+
+/* 第二部分 */
+#zheng-bei-2 {
+	background-image: url(../img/关于我们/手指.png);
+	background-size: cover;
+	height: 300px;
+	overflow: hidden;
+	color: #fffffe;
+}
+#zheng-bei-2 h1 {
+	width: 135px;
+	margin: 0 auto;
+	margin-top: 70px;
+	padding-bottom: 10px;
+	border-bottom: #fffffe solid 2px;
+}
+#zheng-bei-2 p {
+	width: 800px;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 50px;
+}
+#zheng-bei-3 {
+	height: 50px;
+	position: relative;
+	top: -25px;
+}
+#zheng-bei-3 div{
+	float: left;
+	height: 50px;
+	width: 120px;
+	background-color: #FFFFFF;
+	margin-right: 5px;
+	
+}
+#zheng-bei-3 img {
+	margin-left: 10px;
+	margin-right: 3px;
+	width: 20px;
+	float: left;
+	/* 垂直居中 */
+	position: relative;
+	top: 50%;
+	margin-top: -10px;
+}
+#zheng-bei-3 h3 {
+	height: 50px;
+	line-height: 50px;
+	float: left;
+}
+#dangqian {
+	background-color: #ebebeb !important;
+}
+/* 第四部分 */
+#zheng-bei-4 {
+	height: 400px;
+}
+#zheng-bei-4 h1 {
+	margin-top: 50px;
+}
+
+#zheng-bei-4 h3 {
+	color: #cccccc;
+	margin-top: 10px;
+	margin-bottom: 80px;
+}
+#zheng-bei-4 p {
+	line-height: 40px;
+}
+#zheng-bei-4 span {
+	color: red;
+}
+/* 第五部分 */
+#zheng-bei-5 {
+	background-color: #f7f7f7;
+}
+.left-5 {
+	float: left;
+	width: 600px;
+	height: 400px;
+	background-color: #FFFFFF;
+	font-size: 16px;
+}
+.left-5 ul {
+	height: 300px;
+	width: 500px;
+	overflow: hidden;
+	margin-top: 50px;
+	margin-left: 30px;
+}
+.left-5 li {
+	margin-top: 10px;
+}
+.right-5 {
+	float: left;
+	width: 600px;
+	height: 400px;
+	background: url(../img/关于我们/服务理念.png) no-repeat center;
+}
+.right-5 div {
+	float: right;
+	height: 100px;
+	width: 200px;
+	margin-right: 50px;
+	margin-top: 200px;
+	text-transform: uppercase;
+}
+.right-5 h1{
+	float: right;
+	color: #f5f6f7;
+}
+.right-5 h3{
+	float: right;
+	color: #CCCCCC;
+}
+.left-5-fan {
+	float: right;
+}
+.right-5-fan {
+	float: right;
+}
+.right-5-fan div {
+	float: left;
+	margin: 200px 0 0 50px;
+}
+.right-5-fan h1,
+.right-5-fan h3{
+	float: left;
+}
+#jinying {
+	background-image: url(../img/关于我们/经营理念.png);
+}
+#guanli {
+	background-image: url(../img/关于我们/管理理念.png);
+}
+#gonzuog {
+	background-image: url(../img/关于我们/工作标准.png);
+}

@@ -1,0 +1,133 @@
+body {
+	background-color: #f7f7f7;
+}
+
+/* 第二部分 */
+#zheng-bei-2 {
+	background-image: url(../img/关于我们/手指.png);
+	background-size: cover;
+	height: 300px;
+	overflow: hidden;
+	color: #fffffe;
+}
+#zheng-bei-2 h1 {
+	width: 135px;
+	margin: 0 auto;
+	margin-top: 70px;
+	padding-bottom: 10px;
+	border-bottom: #fffffe solid 2px;
+}
+#zheng-bei-2 p {
+	width: 800px;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 50px;
+}
+#zheng-bei-3 {
+	height: 50px;
+	position: relative;
+	top: -25px;
+}
+#zheng-bei-3 div{
+	float: left;
+	height: 50px;
+	width: 120px;
+	background-color: #FFFFFF;
+	margin-right: 5px;
+	
+}
+#zheng-bei-3 img {
+	margin-left: 10px;
+	margin-right: 3px;
+	width: 20px;
+	float: left;
+	/* 垂直居中 */
+	position: relative;
+	top: 50%;
+	margin-top: -10px;
+}
+#zheng-bei-3 h3 {
+	height: 50px;
+	line-height: 50px;
+	float: left;
+}
+#dangqian {
+	background-color: #ebebeb !important;
+}
+/* 第四部分 */
+#zheng-bei-4 {
+	height: 600px;
+	border-bottom: solid 3px #ebebeb;
+}
+#baio-4 h1{
+	margin-top: 50px;
+}
+#baio-4 h3 {
+	color: #CCCCCC;
+	margin-top: 10px;
+	margin-bottom: 50px;
+}
+#nei-4 {
+	height: 400px;
+}
+#nei-4 *{
+	float: left;
+}
+#nei-4 img {
+	width: 600px;
+	height: 400px;
+}
+#nei-4 h3 {
+	height: 20px;
+	font-weight: 900;
+	margin-left: 50px;
+	margin-right: 20px;
+}
+#nei-4 h4 {
+	color: #CCCCCC;
+	height: 20px;
+}
+#nei-4 p {
+	width: 500px;
+	margin-top: 30px;
+	margin-left: 50px;
+	line-height: 30px;
+}
+#anniu {
+	float: left;
+	margin-top: 200px;
+	margin-left: 50px;
+}
+#anniu button{
+	float: left;
+	height: 10px;
+	width: 100px;
+	background-color: #1E90FF;
+	margin-right: 10px;
+}
+.wei {
+	background-color: #B2B3DE !important;
+}
+/* 第五部分 */
+#zheng-bei-5 {
+	height: 450px;
+	border-bottom: solid 3px #ebebeb;
+}
+#zheng-bei-5 div{
+	height: 450px;
+}
+#zheng-bei-5 h1 {
+	margin-top: 30px;
+}
+#zheng-bei-5 h3 {
+	color: #888888;
+}
+#zheng-bei-5 img {
+	height: 300px;
+	width: 500px;
+	margin-top: 50px;
+}
+#zheng-bei-5 img:nth-child(3) {
+	margin-left: 50px;
+	margin-right: 100px;
+}

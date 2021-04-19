@@ -1,0 +1,174 @@
+body,
+div,
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol,
+li,
+a{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+li {
+	list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+h4{
+	font-weight: 400;
+}
+.sou input,
+.sou button {
+	outline: none;
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+body {
+	font-family: 楷体;
+	min-width: 1200px;
+	width:expression(document.body.clientWidth <= 1200 ? "1200px": "auto");
+}
+
+
+.zheng-bei-1 {
+	background-image: url(../img/首页/zheng-bei.png);
+	background-size: cover;
+	height: 100px;
+}
+
+.jv {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.lanbei {
+	background-color: #2E2B69;
+	float: left;
+}
+.baioti
+{
+	float: left;
+}
+.baioti img {
+	float: left;
+	height: 50px;
+	width: 160px;
+	margin: 25px 0;
+}
+
+.baioti div {
+	color: #f1f1f1;
+	margin: 27px 0 0 10px;
+	float: left;
+}
+
+.baioti h1 {
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+.baioti p {
+	font-size: 13px;
+}
+.guding {
+	float: left;
+	width: 530px;
+}
+.sou {
+	width: 300px;
+	height: 30px;
+	margin: 30px 100px 0 125px ;
+	font-size: 0px;
+	float: left;
+}
+
+#text {
+	height: 30px;
+	width: 250px;
+	background-color: #fffffe;
+	padding-left: 15px;
+	border-radius: 100px 0 0 100px;
+	vertical-align: top;
+}
+
+#ti {
+	height: 30px;
+	width: 35px;
+	background-color: #fffffe;
+	border-radius: 0 100px 100px 0;
+}
+.sou:hover {
+	border: solid 2px #F1F1F1;
+	border-radius: 100px;
+}
+.jiaocha {
+	height: 0;
+	width: 0;
+	float: left;
+	border-top: solid 50px #2E2B69;
+	border-left: solid 50px #2E2B69;
+	border-right: solid 50px #b2b3de;
+	border-bottom: solid 50px #b2b3de;
+}
+
+
+.daohang {
+	color: #2E2B69;
+	float: right;
+	background-color: #b2b3de;
+	height: 100px;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.daohang div {
+	margin-top: 40px;
+	margin-left: 40px;
+	float: right;
+}
+
+.daohang img {
+	margin-left: 5px;
+}
+
+.daohang ul {
+	margin-top: 5px;
+}
+
+.daohang li {
+	height: 20px;
+	width: 75px;
+	overflow: hidden;
+	margin-bottom: 3px;
+}
+
+
+.daohang a:hover {
+	color: #F1F1F1;
+}
+
+.biaoti-1 {
+	margin-top: 40px;
+	margin-bottom: 40px;
+	color: #2e2b69;
+}
+
+.biaoti-1 h1 {
+	text-align: center;
+}
+
+.biaoti-1 span {
+	border-bottom: #E59B4C solid 2px;
+}

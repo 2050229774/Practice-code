@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style type="text/css">
+			#a1 {
+				height: 30px;
+				width: 270px;
+				border: #D3D3D3 solid 2px;
+				overflow: hidden;
+				position: relative;
+			}
+
+			#a2 {
+				margin: 0;
+				padding: 0;
+				height: 30px;
+				width: 600px;
+				float: left;
+			}
+
+			h3 {
+				margin: 0;
+				padding: 0;
+				float: left;
+				height: 20px;
+				width: 270px;
+			}
+			h3::selection {
+				color: #54B0C7;
+				background-color: aqua;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="a1">
+			<div id="a2">
+				<h3>直觉会给我指引打开幸福的盒子。</h3>
+				<h3>直觉会给我指引打开幸福的盒子。</h3>
+			</div>
+		</div>
+		<script type="text/javascript">
+			var a = document.getElementById("a2"); 
+			var c = null;
+			
+			c = setInterval(function(){
+				if(a.offsetLeft < -270){
+					a.style.marginLeft = 0;
+				}
+				else {
+					a.style.marginLeft = a.offsetLeft - 1 + 'px';
+				}
+			},20)
+			function clear() {
+				clearInterval(c);
+			}
+		</script>
+	</body>
+</html>

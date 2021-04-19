@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+		<title>轮播图</title>
+		<style type="text/css">
+			#external-vessel {
+				/* 确定图片和导航容器宽高及位置 */
+				width: 100%;
+				height: 200px;
+				overflow: hidden;
+				/* 设置定位为js提供图片与父元素的距离 offsetleft*/
+				position: relative;
+				left: 0;
+				top: 0;
+			}
+
+			.img-vessel {
+				/* 将图片放在一行,宽度由js动态确定，其数值是图片数量+1*100% */
+				height: 100%;
+				/* 删除图片之间缝隙 */
+				font-size: 0;
+				/* 设置定位用于相对于父级移动 */
+				position: absolute;
+			}
+
+			.img-vessel img {
+				/* 图片填充 宽度由js动态确定,图片宽度是100%除图片数量+1 */
+				height: 100%;
+				/* 设置边框和内边距为0，使得offsetWidth的等于图片实际宽度 */
+				padding: 0;
+				border: 0;
+			}
+
+			/* 导航样式部分 */
+			.img-nav {
+				position: absolute;
+				bottom: 0;
+				margin-bottom: 10px;
+				display: flex;
+				width: 100%;
+				justify-content: center;
+			}
+
+			.img-nav span {
+				display: inline-block;
+				width: 10px;
+				height: 10px;
+				border-radius: 50%;
+				margin-right: 3px;
+				cursor: pointer;
+			}
+
+			.default {
+				background-color: #C9EEF7;
+			}
+
+			.present {
+				background-color: #D3D3D3;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="external-vessel">
+			<!-- 图片展示部分 -->
+			<div class="img-vessel">
+				<img src="https://desk-fd.zol-img.com.cn/t_s1920x1080c5/g6/M00/0D/02/ChMkKmBdVOyIFHpqACAzMosIyoQAAMGvwESmdsAIDNK017.jpg"
+				 alt="">
+				<img src="https://desk-fd.zol-img.com.cn/t_s1920x1080c5/g6/M00/0D/02/ChMkKmBdVPOIBjY1ABrPpgW1TcMAAMGvwLS3r4AGs--673.jpg"
+				 alt="">
+				<img src="https://desk-fd.zol-img.com.cn/t_s1920x1080c5/g6/M00/0B/00/ChMkKmBamS-IdsvVABQVFnzWDOwAAL-UACX_LYAFBUu002.jpg"
+				 alt="">
+				<img src="https://desk-fd.zol-img.com.cn/t_s1920x1080c5/g6/M00/0E/00/ChMkKWBIH62Idfl_ACmDIs8uTGkAALKbALRyx8AKYM6513.jpg"
+				 alt="">
+				<!-- 此图片用于测试 -->
+				<!-- <img src="https://desk-fd.zol-img.com.cn/t_s1920x1080c5/g6/M00/0E/00/ChMkKWBIH4eIZ9phAAqXzgV0RkoAALKaQENAcUACpfm277.jpg" alt=""> -->
+			</div>
+			<!-- 快捷导航栏 -->
+			<div class="img-nav">
+				<!-- 根据图片数量动态添加sapn -->
+			</div>
+		</div>
+		<script type="text/javascript">
+			const imgVessel = document.getElementsByClassName('img-vessel')[0];
+			const imgNav = document.getElementsByClassName('img-nav')[0];
+
+			const imgCount = imgVessel.children.length; //图片张数
+			let th; //nav 计数器
+			//导航跳转指定位置
+			let navSkip = function(j) {
+				th = j;
+				for (let i = 0; i < imgCount; i++) {
+					imgNav.children[i].className = 'default';
+				}
+				imgNav.children[j].className = 'present';
+			}
+			//创建sapn要绑定点击事件:由于无法确定是哪个sapn故在初始化时需要配置id
+			let skip = function() {
+				let nx = Number(this.id[1]);
+				clearAway()
+				imgVessel.style.left = nx * -imgWidth + 'px';
+				length = -imgWidth * (nx + 1);
+				navSkip(nx)
+				setTimeout(start, 1000)
+			}
+
+			//初始化
+			let initialize = function() {
+				// 确定所有图片容器需要的宽度
+				imgVessel.style.width = (imgCount + 1) * 100 + '%';
+				for (let i = 0; i < imgCount; i++) {
+					//确定每张图片宽度
+					imgVessel.children[i].style.width = 100 / (imgCount + 1) + '%';
+					//根据图片张数动态添加span并设置id
+					imgNav.appendChild(document.createElement('span'));
+					imgNav.children[i].id = 'n' + i;
+					imgNav.children[i].addEventListener('click', skip)
+				}
+				// 初始化span上的class
+				navSkip(0)
+				// 复制第一个节点到imgvessel尾部：用于遮盖
+				imgVessel.appendChild(imgVessel.cloneNode(true).children[0])
+			}
+			initialize()
+
+			var imgWidth = imgVessel.children[0].offsetWidth; //图片实际宽度
+			var imgLongWidth = imgWidth * imgCount; //所有图片宽度
+			var length = -imgWidth; //图片倍数
+			let inval = null; //定义全局周期执行句柄
+
+			//周期执行回调函数
+			let activity = function() {
+				//图片动起来
+				imgVessel.style.left = (imgVessel.offsetLeft - 1) + 'px';
+				// 判断是否播放完成一张，并停留
+				// console.log(imgVessel.offsetLeft,length)
+				if (imgVessel.offsetLeft == length) {
+					length = length - imgWidth
+					clearAway()
+					setTimeout(start, 1000)
+					// 更该span class
+					th += 1;
+					if (imgVessel.offsetLeft == -imgLongWidth) {
+						th = 0;
+					}
+					navSkip(th)
+				}
+				// 到达尾部回退进行，图片轮播
+				if (imgVessel.offsetLeft == -imgLongWidth) {
+					imgVessel.style.left = 0;
+					length = -imgWidth;
+				}
+			}
+			//左右滑动
+			
+			//启动定时器
+			let start = function() {
+				clearAway()
+				inval = setInterval(activity, 10)
+			}
+			//清除定时器
+			let clearAway = function() {
+				clearInterval(inval)
+			}
+			setTimeout(start, 1000)
+			//检测窗口变化，当发生变化轮播回到初始位置
+			window.onresize = function() {
+				// 清除定时器
+				clearAway()
+				imgVessel.style.left = 0;
+				imgWidth = imgVessel.children[0].offsetWidth
+				imgLongWidth = imgWidth * imgCount
+				length = -imgWidth
+				navSkip(0)
+				setTimeout(start, 1000)
+			}
+		</script>
+	</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+	</body>
+	<script type="text/javascript">
+		var a = 123;
+		var b = '字符串';
+		var c = true;
+		var d = [];
+		var e = {};
+		var f = function(){
+			console.log(arguments);
+		};
+		f()
+		var g = typeof(f); //返回值类型
+		console.log(typeof(a),typeof(b),typeof(c),typeof(d),typeof(e),typeof(f),typeof(g))
+		console.log(
+					a.constructor,
+					b.constructor,
+					c.constructor,
+					d.constructor,
+					e.constructor,
+					f.constructor
+					);
+	</script>
+</html>

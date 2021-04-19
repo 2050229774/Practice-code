@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>淘宝代购</title>
+		<link rel="icon" type="image/x-icon" href="./img/首页/log.png" />
+		<link rel="stylesheet" href="./css/首页.css">
+		<link rel="stylesheet" href="./css/淘宝代购.css">
+	</head>
+	<body>
+		<div class="zheng-bei-1">
+			<div class="jv">
+				<div class="lanbei">
+					<div class="baioti">
+						<img src="./img/首页/51GUOJI.png" alt="51国际快递">
+						<div>
+							<h1>五一国际快递</h1>
+							<p>跨境电商供应链一站式服务平台</p>
+						</div>
+					</div>
+					<div class="guding">
+						<div class="sou">
+							<input type="text" name="" id="text" value="" placeholder="关键词" />
+							<button id="ti"><img src="img/首页/搜索.png" alt="搜索"></button>
+						</div>
+					</div>
+				</div>
+				<div class="jiaocha"></div>
+				<div class="daohang">
+					<div id="app" @mouseover="fy" @mouseout="fn">
+						<span>快速导航</span>
+						<img src="./img/首页/导航栏.png">
+						<ul v-show="dao">
+							<li><a href="index.html">首页</a></li>
+							<li><a href="咨询详情.html" target="_blank">咨询详情</a></li>
+							<li><a href="联系我们.html" target="_blank">联系我们</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="zheng-bei-2">
+			<div class="jv">
+				<h1>淘宝代购</h1>
+				<p>可以一站式代购淘宝、当当、卓越亚马逊、拍拍等中国网站商品，支持信用卡、Paypal多种付款方式，商品集中邮寄，享受运费折扣。</p>
+			</div>
+		</div>
+		<div id="zheng-bei-3">
+			<div class="jv">
+				<div id="zheng-bei-3-biaoti">
+					<h1> 一站式搞定您的国际物流</h1>
+					<p>订舱、拖车、内装、报关、保险……十八般武艺样样精通 数千家合作车队，实时短信提醒追踪，包裹轨迹清</p>
+				</div>
+				<div id="zheng-bei-3-neirong">
+					<div style="background-image: url(img/淘宝代购/中国.png);">
+						<h1>中國集運</h1>
+						<p>淘遍京東淘寶天貓等 最快今發明至</p>
+					</div>
+					<div style="background-image: url(img/淘宝代购/海外.png);">
+						<h1>海外集運</h1>
+						<p>客戶在國內網上商城購買了商品後,把商品發到集運公司的收貨倉庫, 之後集運公司按照客戶的要求把要發到同壹目的地的多件或壹件貨物包</p>
+					</div>
+					<div style="background-image: url(img/淘宝代购/澳门.png);">
+						<h1>澳門集運</h1>
+						<p>海外至澳門，中國至澳門 淘遍全球好物</p>
+					</div>
+					<div style="background-image: url(img/淘宝代购/国际.png);">
+						<h1>國際集運</h1>
+						<p>助力香港澳門跨境 電商開拓中國市場</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="zheng-bei-4">
+			<div class="jv">
+				<div id="zheng-bei-4-biaoti">
+					<h1> 優勢的服務體系</h1>
+					<p>用速購集運，享受優惠的價格 </p>
+				</div>
+				<div id="zheng-bei-4-left">
+					<div><img src="./img/淘宝代购/银行卡%20支付%20账单%20付款%20金钱%20储存卡%20.png" alt="">
+						<h2>速購集運 快捷交付</h2>
+					</div>
+					<div><img src="./img/淘宝代购/保障.png" alt="">
+						<h2>速購集運 安全保障</h2>
+					</div>
+				</div>
+				<div id="zheng-bei-4-zhong"><img src="./img/淘宝代购/中透明.png"></div>
+				<div id="zheng-bei-4-right">
+					<div><img src="./img/淘宝代购/优惠.png" alt="">
+						<h2> 速購集運 省時實惠</h2>
+					</div>
+					<div><img src="./img/淘宝代购/优选.png" alt="">
+						<h2>速購集運 優惠嚴選</h2>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="zheng-bei-5">
+			<div class="jv">
+				<img src="./img/淘宝代购/快递员.png">
+					<div id="zheng-bei-5-biaoti"><p>您只需要提供所需货品清单给我们，我们就可帮您购买商品并集中邮寄到您手上。</p><h1>简单操作十步走：</h1></div>
+					<div id="zheng-bei-5-flow">
+						<div class="lianjian"><span class="huang">①</span></div>
+						<div class="rotate huang-colr"><img src="img/淘宝代购/kefu.png" alt=""><p>客户把货物清单 提供给客服</p></div>
+						<div class="lianjian"><span>②</span><div></div></div>
+						<div class="rotate"><img src=" img/淘宝代购/预付(1).png"alt=""><p>客户预付定金</p></div>
+						<div class="lianjian"><span class="huang">③</span><div></div></div>
+						<div class="rotate  huang-colr"><img src="img/淘宝代购/货物(1).png" alt=""><p>我们采购客户 所需货物</p></div>
+						<div class="lianjian"><span>④</span><div></div></div>
+						<div class="rotate"><img src="img/淘宝代购/打包(1).png" alt=""><p>货物集中打包</p></div>
+						<div class="lianjian"><span class="huang">⑤</span><div></div></div>
+						<div class="rotate  huang-colr"><img src="img/淘宝代购/确认(1).png" alt=""><p>客户确认 重量和邮费</p></div>
+						
+						<div class="lianjian"><span>⑥</span><div></div></div>
+						<div class="lianjian-shu"></div>
+					</div>
+					<div id="zheng-bei-5-flow-below">
+						<div class="rotate"><img src="img/淘宝代购/交易完成.png" alt=""><p style="text-align: left; margin-left: 25px;">交易完成</p></div>
+						<div class="lianjian"><span>⑩</span><div></div></div>
+						<div class="rotate  huang-colr"><img src="img/淘宝代购/签收(1).png" alt=""><p>客户签收货物</p></div>
+						<div class="lianjian"><span class="huang">⑨</span><div></div></div>
+						<div class="rotate"><img src="img/淘宝代购/派送(1).png" alt=""><p>运输派送</p></div>
+						<div class="lianjian"><span>⑧</span><div></div></div>
+						<div class="rotate  huang-colr"><img src="img/淘宝代购/出库(1).png" alt=""><p>货物出库</p></div>
+						<div class="lianjian"><span class="huang">⑦</span><div></div></div>
+						<div class="rotate "><img src="img/淘宝代购/邮费模板.png" alt=""><p>客户支付货物 尾款和邮费</p></div>
+						<div class="lianjian"><div style="margin-top: 50px;"></div></div>
+						<div class="lianjian"><div style="margin-top: 50px;"></div></div>
+					</div>
+			</div>
+		</div>
+	</body>
+	<script src="./js/vue.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/页首.js" type="text/javascript" charset="utf-8"></script>
+</html>

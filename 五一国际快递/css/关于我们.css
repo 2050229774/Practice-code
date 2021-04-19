@@ -1,0 +1,173 @@
+body {
+	background-color: #f7f7f7;
+}
+
+/* 第二部分 */
+#zheng-bei-2 {
+	background-image: url(../img/关于我们/手指.png);
+	background-size: cover;
+	height: 300px;
+	overflow: hidden;
+	color: #fffffe;
+}
+#zheng-bei-2 h1 {
+	width: 135px;
+	margin: 0 auto;
+	margin-top: 70px;
+	padding-bottom: 10px;
+	border-bottom: #fffffe solid 2px;
+}
+#zheng-bei-2 p {
+	width: 800px;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 50px;
+}
+#zheng-bei-3 {
+	height: 50px;
+	position: relative;
+	top: -25px;
+}
+#zheng-bei-3 div{
+	float: left;
+	height: 50px;
+	width: 120px;
+	background-color: #FFFFFF;
+	margin-right: 5px;
+	
+}
+#zheng-bei-3 img {
+	margin-left: 10px;
+	margin-right: 3px;
+	width: 20px;
+	float: left;
+	/* 垂直居中 */
+	position: relative;
+	top: 50%;
+	margin-top: -10px;
+}
+#zheng-bei-3 h3 {
+	height: 50px;
+	line-height: 50px;
+	float: left;
+}
+#dangqian {
+	background-color: #ebebeb !important;
+}
+/* 第四部分 */
+#zheng-bei-4 {
+	background-color: #f7f7f7;
+	height: 400px;
+	margin-top: 50px;
+}
+#zheng-bei-4 h2 {
+	font-weight: 900;
+	font-size: 20px;
+}
+#zheng-bei-4 h4 {
+	margin: 0;
+	padding: 0;
+	margin: 10px 0;
+	color: #cccccc;
+}
+#zheng-bei-4 p {
+	margin: 50px 0;
+	height: 100px;
+}
+
+#qiangdiao div{
+	float: left;
+	width: 300px;
+}
+/* 第五部分 */
+#zheng-bei-5 {
+	background-image: url(../img/关于我们/山脉.png);
+	background-size: cover;
+	height: 600px;
+	overflow: hidden;
+}
+#fazhan {
+	float: right;
+	margin-top: 50px;
+}
+#fazhan h1 {
+	float: right;
+}
+#fazhan h2 {
+	color: #cccccc;
+}
+#licheng  {
+	float: left;
+	width: 1200px;
+	margin-top: 100px;
+}
+#zheng-bei-5-left {
+	float: left;
+	width: 40px;
+	font-size: 40px;
+	font-weight: 900;
+	color: #999999;
+	margin-top: 80px;
+}
+#jvhzhong {
+	float: left;
+	margin-left: 70px;
+}
+#zheng-bei-5-zhong {
+	float: left;
+}
+.shiijan {
+	position: relative;
+	/* bottom: 40px; */
+	width: 150px;
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	font-size: 30px;
+}
+.neirong {
+	position: relative;
+	top: 40px;
+	width: 150px;
+	height: 100px;
+	text-align: center;
+}
+.neirong-fan {
+	bottom: 50px;
+	top: 0;
+}
+.shiijan-fan {
+	top: 10px;
+	bottom: 0;
+}
+.dain {
+	position: relative;
+	left: 70px;
+	float: left;
+	width: 5px;
+	height: 5px;
+	border-radius: 50%;
+	background-color: #999999;
+}
+#dian-dangqian {
+	background-color: #2e2b69;
+	border: solid 10px rgba(194,193,211,1);
+	bottom: 10px;
+}
+.xian {
+	position: relative;
+	left: 70px;
+	float: left;
+	width: 200px;
+	height: 1px;
+	margin-top: 2.5px;
+	background-color: #999999;
+}
+#zheng-bei-5-raing {
+	float: right;
+	width: 40px;
+	font-size: 40px;
+	font-weight: 900;
+	color: #999999;
+	margin-top: 80px;
+}

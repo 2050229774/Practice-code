@@ -1,0 +1,144 @@
+body {
+	background-color: #f7f7f7;
+}
+/* 第二部分 */
+#zheng-bei-2 {
+	background-image: url(../img/国际快递/飞机背景.png);
+	background-size: cover;
+	height: 300px;
+	overflow: hidden;
+	color: #fffffe;
+}
+#zheng-bei-2 h1 {
+	width: 135px;
+	margin: 0 auto;
+	margin-top: 70px;
+	padding-bottom: 10px;
+	border-bottom: #fffffe solid 2px;
+}
+#zheng-bei-2 p {
+	width: 800px;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 50px;
+}
+/* 第三部分 */
+.zheng-bei-3-left {
+	float: left;
+	height: 400px;
+	width: 600px;
+	margin-top: 80px;
+}
+.zheng-bei-3-left h1 {
+	color: #2e2b69;
+	font-weight: 800;
+}
+.haung {
+	width: 60px;
+	height: 5px;
+	background-color: #e9b101;
+	margin-top: 5px;
+	margin-bottom: 50px;
+}
+.baise {
+	height: 300px;
+	width: 600px;
+	background-color: #FFFFFF;
+	overflow: hidden;
+}
+.baise h3 {
+	width: 500px;
+	margin-top: 50px;
+	margin-bottom: 20px;
+	margin-left: 50px;
+	text-indent: 2em;
+}
+.baise p {
+	width: 500px;
+	margin-left: 50px;
+}
+.baise a {
+	display: inline-block;
+	height: 40px;
+	width: 150px;
+	background-color: #2e2b69;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 40px;
+	margin-left: 50px;
+	margin-top: 40px;
+}
+.zheng-bei-3-right {
+	float: right;
+	width: 600px;
+	height: 400px;
+	margin-top: 80px;
+}
+.zheng-bei-3-right img{
+	position: relative;
+	left: -40px;
+	width: 640px;
+	height: 350px;
+}
+
+
+.zheng-bei-3-left-right {
+	float: right;
+	height: 400px;
+	width: 600px;
+	margin-top: 80px;
+}
+.zheng-bei-3-left-right h1 {
+	color: #2e2b69;
+	font-weight: 800;
+	float: right;
+	margin-left: 400px;
+}
+.haung-right {
+	float: right;
+	width: 60px;
+	height: 5px;
+	background-color: #e9b101;
+	margin-top: 5px;
+	margin-bottom: 50px;
+	margin-left: 500px;
+}
+.baise-right {
+	height: 300px;
+	width: 600px;
+	background-color: #FFFFFF;
+	overflow: hidden;
+}
+.baise-right h3 {
+	width: 500px;
+	margin-top: 50px;
+	margin-bottom: 20px;
+	margin-left: 90px;
+	text-indent: 2em;
+}
+.baise-right p {
+	width: 500px;
+	margin-left: 90px;
+}
+.baise-right a {
+	display: inline-block;
+	height: 40px;
+	width: 150px;
+	background-color: #2e2b69;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 40px;
+	margin-left: 90px;
+	margin-top: 40px;
+}
+.zheng-bei-3-right-left {
+	float: left;
+	width: 600px;
+	height: 400px;
+	margin-top: 80px;
+}
+.zheng-bei-3-right-left img{
+	position: relative;
+	width: 640px;
+	height: 350px;
+}
